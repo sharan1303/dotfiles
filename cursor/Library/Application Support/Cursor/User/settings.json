@@ -1,0 +1,8 @@
+{
+    "window.commandCenter": true,
+    "security.workspace.trust.enabled": true,
+    "workbench.colorTheme": "Dracula Theme",
+    "editor.fontSize": 14,
+    "files.autoSave": "afterDelay",
+    "git.autofetch": true
+}
