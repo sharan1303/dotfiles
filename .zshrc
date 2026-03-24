@@ -2,7 +2,12 @@
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Aliases
-alias lg="lazygit"
+function lg() {
+  local repo=$(basename "$(git rev-parse --show-toplevel 2>/dev/null)" 2>/dev/null || basename "$PWD")
+  printf '\e]2;lazygit - %s\e\\' "$repo"
+  lazygit "$@"
+  printf '\e]2;\e\\'
+}
 alias c-="clear"
 
 # Enable git info in prompt
