@@ -3,6 +3,7 @@
     "security.workspace.trust.enabled": true,
     "workbench.colorTheme": "Dracula Theme",
     "editor.fontSize": 14,
+    "window.zoomLevel": 0.75,
     "files.autoSave": "afterDelay",
     "git.autofetch": true
 }
