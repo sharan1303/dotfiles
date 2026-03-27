@@ -12,3 +12,5 @@ claude/.claude/shell-snapshots/
 claude/.claude/ide/
 claude/.claude/plans/
 claude/.claude/session-env
+/claude/.claude/plugins/blocklist.json
+/claude/.claude/plugins/known_marketplaces.json
